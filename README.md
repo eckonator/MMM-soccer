@@ -1,6 +1,6 @@
 # MMM-soccer [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/fewieden/MMM-soccer/master/LICENSE)
 
-A Soccer Standings Module for MagicMirror², based on @fewiedens [MMM-soccer](https://github.com/fewieden/MMM-soccer)
+A Soccer Standings Module for MagicMirror², based on @fewiedens [MMM-soccer](https://github.com/fewieden/MMM-soccer) forked on @lavolp3 [MMM-soccer](https://github.com/lavolp3/MMM-soccer)
 
 ## Examples
 
@@ -40,7 +40,7 @@ A Soccer Standings Module for MagicMirror², based on @fewiedens [MMM-soccer](ht
     ```
 
 
-4. Optional: Get a free api key [here](http://api.football-data.org/register) (highly recommended)
+4. Optional: Get a free api key [here](https://www.football-data.org/client/register) (highly recommended)
 
 
 ## Config Options
