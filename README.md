@@ -16,26 +16,27 @@ A Soccer Standings Module for MagicMirror², based on @fewiedens [MMM-soccer](ht
 ## Installation
 
 1. Clone this repo into your `~/MagicMirror/modules` directory.
-```git clone https://github.com/lavolp3/MMM-soccer```
+```git clone https://github.com/eckonator/MMM-soccer```
 2. Run command `npm install` in `~/MagicMirror/modules/MMM-soccer` directory.
 3. Configure your `~/MagicMirror/config/config.js`:
 
     ```
-    {
-        module: 'MMM-soccer',
-        position: 'top_left',
-        config: {
-            api_key: '',
-            show: ['CL', 'BL1', 'PL'],
-            colored: true,
-            updateInterval: 60,
-            focus_on: {
-                null
-            },
-            max_teams: 5,
-            matchType: 'league'
-        }
-    },
+        {
+            module: 'MMM-soccer',
+            position: 'top_left',
+            config: {
+                api_key: 'YOUR-API-KEY', // get if free from https://www.football-data.org/client/register
+                show: ['CL', 'BL1', 'PL'],
+                colored: true,
+                updateInterval: 60,
+                focus_on: {
+                    'BL1': 'FC Bayern München',
+                    'CL': 'Liverpool FC'
+                },
+                max_teams: 5,
+                matchType: 'league'
+            }
+        },
     ```
 
 

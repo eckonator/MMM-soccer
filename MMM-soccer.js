@@ -152,6 +152,10 @@ Module.register('MMM-soccer', {
             this.updateDom(500);
         }
     },
+    
+    getScripts: function () {
+        return ["moment.js"];
+    },
 
     getStyles: function() {
         return ['MMM-soccer.css'];
